@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "mugi_exporter",
+  "version": "${version}",
+  "name": "MugiExporter",
+  "description": "",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/mugi_exporter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "band.kessoku.mugi_exporter.fabric.MugiExporterModFabric"
+    ],
+    "client": [
+      "band.kessoku.mugi_exporter.fabric.client.MugiExporterModFabricClient"
+    ]
+  },
+  "mixins": [
+    "mugi_exporter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

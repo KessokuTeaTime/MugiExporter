@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "band.kessoku.mugi_exporter.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
