@@ -7,8 +7,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'mugi_exporter'
-
 include 'common'
 include 'fabric'
 include 'neoforge'
